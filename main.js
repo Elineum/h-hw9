@@ -13,7 +13,9 @@ function removeElement(arr, el) {
 // variant 2
 /* 
 function removeElement(arr, el) {
-  arr.splice(arr.indexOf(el), 1);
+  if (el) {
+    arr.splice(arr.indexOf(el), 1);
+  }
 }
 */
 
