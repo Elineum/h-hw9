@@ -13,7 +13,7 @@ function removeElement(arr, el) {
 // variant 2
 /* 
 function removeElement(arr, el) {
-  if (el) {
+  if (arr.includes(el)) {
     arr.splice(arr.indexOf(el), 1);
   }
 }
